@@ -1,0 +1,35 @@
+{
+ "features": [
+  "tut",
+  "bien_do",
+  "lech_tb"
+ ],
+ "mu": [
+  9.26632,
+  9.8671,
+  3.86886
+ ],
+ "sd": [
+  9.63234,
+  9.96699,
+  4.327
+ ],
+ "coef": [
+  0.36232,
+  2.55928,
+  2.62443
+ ],
+ "intercept": 0.23259,
+ "threshold": 0.5,
+ "window_s": 80,
+ "baseline_s": 210,
+ "period_s": 2,
+ "hoc_tren": "Apnea-ECG (PhysioNet), 8 đêm có SpO2: a01-a04, b01, c01-c03; nhãn ngưng/giảm thở từng phút",
+ "kiem_dinh_cheo_bo_1_nguoi": {
+  "do_nhay": 0.961,
+  "do_dac_hieu": 0.964,
+  "do_chinh_xac": 0.963,
+  "so_phut": 3845,
+  "auc": 0.988
+ }
+}

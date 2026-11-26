@@ -1,0 +1,7 @@
+phuong_phap,so_phut,do_nhay,do_dac_hieu,do_chinh_xac,auc
+"Isolation Forest (sóng thở ngực, ngưỡng riêng)",3911,0.509,0.744,0.647,
+Luật cũ: Isolation Forest báo bất thường và SpO2 ≤ 92 %,3911,0.479,0.96,0.762,
+Luật tụt SpO2 ≥ 3 % so với nền,3911,0.968,0.779,0.857,
+"Hồi quy logistic, chỉ sóng thở ngực",3911,0.833,0.518,0.647,0.649
+"Hồi quy logistic, chỉ SpO2 (đang dùng)",3845,0.961,0.964,0.963,0.988
+"Hồi quy logistic, sóng thở ngực + SpO2",3845,0.971,0.769,0.851,0.849

@@ -1,0 +1,11 @@
+__pycache__/
+*.py[cod]
+*$py.class
+.ruff_cache/
+may_chu/du_lieu/
+may_chu/mitdb_cache/
+*.db
+*.db-wal
+*.db-shm
+.ipynb_checkpoints/
+*.tmp

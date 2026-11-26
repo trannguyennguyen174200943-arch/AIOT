@@ -1,0 +1,71 @@
+{
+  "preprocess_version": 3,
+  "window_sec": 10,
+  "hrv_names": [
+    "hr",
+    "sdnn_ms",
+    "rmssd_ms",
+    "nrmssd",
+    "pnn50",
+    "tpr",
+    "shannon",
+    "n_beats",
+    "rr_min_ratio",
+    "rr_max_ratio",
+    "premature_frac",
+    "qrs_ms",
+    "corr_min",
+    "corr_low_frac"
+  ],
+  "ensemble_weight": 0.15,
+  "noise_aug": true,
+  "ppg_noise_aug": false,
+  "extra_models": [
+    "cnn_gru_fusion_2.keras",
+    "cnn_gru_fusion_3.keras"
+  ],
+  "che_do": "chinh_xac_nhat",
+  "du_lieu_them": [
+    "INCART",
+    "AFDB",
+    "SVDB",
+    "CUDB"
+  ],
+  "mo_hinh_2_tang": true,
+  "ecg_fs": 250,
+  "ppg_fs": 50,
+  "mmw_fs": 10,
+  "ecg_len": 2500,
+  "ppg_len": 500,
+  "mmw_len": 100,
+  "class_names": [
+    "Bình thường",
+    "Bất thường nhẹ",
+    "Nguy cơ cao"
+  ],
+  "mmw_filter": true,
+  "use_mel": true,
+  "use_hrv": true,
+  "mel": {
+    "n_fft": 512,
+    "hop": 64,
+    "n_mels": 32,
+    "fmin": 0.5,
+    "fmax": 40.0
+  },
+  "use_attention": true,
+  "use_residual": true,
+  "use_se": true,
+  "focal_gamma": 1.5,
+  "augment": true,
+  "modality_dropout": 0.15,
+  "temperature": 0.55,
+  "data_mode": "mitbih",
+  "ptbxl": true,
+  "split": "patient",
+  "test_accuracy": 0.8625,
+  "test_sensitivity": 0.9134,
+  "test_specificity": 0.9402,
+  "test_auc": 0.9678,
+  "latency_ms": 598.0
+}

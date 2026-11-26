@@ -1,0 +1,6 @@
+﻿Nguồn dữ liệu lạ (chưa thấy khi học),Số cửa sổ,Độ chính xác,Độ nhạy,Độ đặc hiệu,AUC
+MIT-BIH DS2,7560,0.814,0.828,0.973,0.954
+INCART (St. Petersburg),8257,0.931,0.989,0.974,0.998
+AFDB (rung nhĩ),976,0.853,0.983,0.835,0.955
+SVDB (Holter 128 Hz),5166,0.838,0.918,0.911,0.967
+CUDB (VT/VF),339,0.673,0.989,0.551,0.902
